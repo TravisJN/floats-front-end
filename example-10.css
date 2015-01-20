@@ -1,0 +1,40 @@
+/* ---------------------------------------------------------- */
+/* Float Examples for MakerSquare Front-End Class ----------- */
+/* created by Elyse Holladay @elyseholladay ----------------- */
+/* ---------------------------------------------------------- */
+
+/* Example 10 */
+
+.header {}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+.container:after {
+	content: " ";
+	height: 0px;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+.sidebar {
+	float: left;
+	width: 20%;
+	height: 300px;
+}
+
+.main-content {
+	float: left;
+	width: 80%;
+	height: 300px;
+}
+
+.sub-content {}
+
+.footer {}
+
+/* what do you have to add to make the sidebar and content and footer not be the full width of the browser? */
